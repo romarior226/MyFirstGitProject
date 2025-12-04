@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     containerColor = Color(0xFF00364E))
                 { innerPadding ->
                     Greeting(
-                        name = "Nigga",
+                        name = "project",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "my first $name!",
         modifier = modifier
     )
 }
